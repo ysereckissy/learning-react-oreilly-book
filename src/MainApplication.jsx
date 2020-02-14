@@ -1,10 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
 import './App.css';
 import NameForm from './components/NameForm';
-import startTicking from './apps/clock/Clock';
 
-function App() {
+function MainApplication() {
   console.log(this)
   const element = (
     <div className="App">
@@ -15,10 +13,8 @@ function App() {
         <NameForm />
     </div>
   );
-  ReactDOM.render(element, document.getElementById('root'));
-  startTicking()
   return element;
 }
 
 ///setInterval(App, 1000)
-export default App;
+export default MainApplication;
