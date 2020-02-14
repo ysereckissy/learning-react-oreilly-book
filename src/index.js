@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import RecipesMenu from './components/RecipesMenu';
+import RecipesMenu from './components/Menu';
 import recipes from './data/recipes-data'
 
 ReactDOM.render(

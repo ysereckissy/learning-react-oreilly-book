@@ -1,6 +1,6 @@
 import React from 'react'
 import IngredientsList from './IngredientsList'
-import RecipeInstruction from './RecipeInstructions'
+import RecipeInstruction from './Instructions'
 
 const Recipe = ({name, ingredients, steps}) => (
     <section id={name.toLowerCase().replace(/ /g, "-")} >
